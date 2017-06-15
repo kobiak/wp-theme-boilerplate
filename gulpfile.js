@@ -69,7 +69,7 @@ var css = {
     require('postcss-assets')({
             loadPaths: ['images/'],
             basePath: dir.build,
-            baseUrl: '/wp-content/themes/' + my-theme + '/'
+            baseUrl: '/wp-content/themes/' + themeName + '/'
         }),
     require('autoprefixer')({
             browsers: ['last 2 versions', '> 2%']

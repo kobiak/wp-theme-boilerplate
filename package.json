@@ -20,7 +20,9 @@
     "postcss-assets": "^4.1.0",
     "browser-sync": "^2.18.12"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-deporder": "^1.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
